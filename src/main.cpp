@@ -8,5 +8,7 @@ int main () {
   std::cout << "neue Zeile\n";
   std::cout << "neue Zeile von replit\n";
 
+  std::cout << "Eine weitere Zeile in replit\n";
+
   return EXIT_SUCCESS;
 }
