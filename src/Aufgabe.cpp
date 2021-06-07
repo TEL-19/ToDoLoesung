@@ -11,3 +11,8 @@ std::string Aufgabe::getDueDate() {
 void Aufgabe::setDescription(std::string desription) {
    _description = desription;
 }
+
+std::ostream& operator<<(std::ostream &os, const Aufgabe& obj) {
+   os << "   - " << obj._description << ", due: " << std::asctime(std::localtime(&obj._todo));
+   return os;
+}

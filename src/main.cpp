@@ -16,7 +16,8 @@ int main() {
 
   cout << endl << "Liste: " << list->getName() << endl;
   for(auto el: list->getTasks()) {
-    cout << "   - " << el.getDescription() << ", due: " << el.getDueDate();
+    // cout << "   - " << el.getDescription() << ", due: " << el.getDueDate();
+    cout << el;
   }
 
   cout << endl;

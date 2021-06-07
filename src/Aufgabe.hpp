@@ -2,6 +2,7 @@
 #define AUFGABE_HPP
 #include <string>
 #include <ctime>
+#include <iostream>
 
 class Aufgabe {
    std::string _description;
@@ -11,6 +12,8 @@ public:
    std::string getDescription();
    void setDescription(std::string desription);
    std::string getDueDate();
+
+   friend std::ostream& operator<<(std::ostream &os, const Aufgabe& obj);
 };
 
 #endif /* AUFGABE_HPP */
