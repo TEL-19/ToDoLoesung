@@ -11,7 +11,7 @@ Erstellen einer einfach Todo Liste mit C++, die über die Konsole gesteuert werd
   - Dokumentation der Umsetzung mit einem UML-Klassendiagrammen.
   - Eventuell Unit-Test um einzelne Module/Klassen zu testen und/oder testen über die Konsole
   - Das Projekt wird mit Git verwaltet.
- 
+
 ## Verzeichnisstruktur des Projekts
 - `src`: Enthält `cpp`-Quelldateien.
 - `uml`: Enthält UML-Diagramme zum Projekt.
@@ -21,7 +21,7 @@ Erstellen einer einfach Todo Liste mit C++, die über die Konsole gesteuert werd
 - In der Konsole über make:
   - Kompilieren und ausführen: `make run`
   - Nur Kompilieren: `make`
-  - Erstellte Datein löschen: `make clean`  
+  - Erstellte Datein löschen: `make clean`
 
 
 ## Grober Ablauf
@@ -30,3 +30,7 @@ Erstellen einer einfach Todo Liste mit C++, die über die Konsole gesteuert werd
 - Arbeitsaufteilung
 - Implementierung
 - Testen des Programms
+
+## Beispiel Implementierung in Java
+- [link](https://github.com/wwi20ama-programmierung/todo-list)
+- Bei der Implementierung fehlt aber noch eine Nutzer Interaktion und das Speichern in Dateien
